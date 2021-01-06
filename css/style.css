@@ -222,7 +222,7 @@ nav ul li a:hover {
     background: #fff;
     padding: 16px;
     border-radius: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     box-shadow: 0 6.85px 20px hsla(0, 0%, 0%, 0.103);
 }
 
@@ -273,10 +273,96 @@ nav ul li a:hover {
 
 /* Work Inquiry Section End */
 
+
+/* My Blog Section Start */
+.skill-section {
+    background: #F8F9FC;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.skill-section h2 {
+    color: #363958;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.skill-section h2 span {
+    color: #ff8367;
+}
+
+.skill-section>.container>p {
+    width: 70%;
+    color: #6C6C6C;
+    margin: auto;
+    padding: 30px;
+}
+
+.skill-section>.container>span {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: #FF8367;
+}
+
+
+.skill {
+    width: 33.33%;
+    text-align: left;
+    padding: 15px;
+    float: left;
+}
+
+.skill-bg {
+    border: 1px solid #3639581f;
+    border-radius: 6px;
+    padding: 30px 20px;
+}
+
+.skill-bg:hover {
+    box-shadow: 0 6px 18px #220d0d1e;
+}
+
+.skill-bg>h3:hover {
+    color: #ff8367;
+}
+
+.skill h3 {
+    color: #363958;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.skill p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #6C6C6C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skill a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #363958;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+
+.skill a:hover {
+    color: #3547ff;
+}
+
+/* My Blog Section End */
+
+
+
 /* Social Section Start */
 .social-section {
     text-align: center;
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
 .social-section h5 {
