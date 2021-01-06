@@ -111,10 +111,6 @@ nav ul li a:hover {
     background-color: #FF8367;
 }
 
-.introduce-content a {}
-
-.introduce-content a:hover {}
-
 .custom-btn {
     font-size: 18px;
     text-decoration: none;
@@ -178,13 +174,11 @@ nav ul li a:hover {
     margin: 40px 0;
 }
 
-.about-content .custom-btn {}
 
 .about-content .custom-btn i {
     padding-right: 5px;
 }
 
-.about-content .custom-btn:hover {}
 
 /* About Section End */
 
@@ -232,8 +226,6 @@ nav ul li a:hover {
     box-shadow: 0 6.85px 20px hsla(0, 0%, 0%, 0.103);
 }
 
-.work-bg img {}
-
 .work-bg h4 {
     font-size: 24px;
     color: #363958;
@@ -250,3 +242,123 @@ nav ul li a:hover {
 }
 
 /* Work Section End */
+
+/* Work Inquiry Section Start */
+.work-inquiry-section {
+    background: url(../images/work-inquiry-bg.png);
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    background-position: center;
+    background-size: 70%;
+}
+
+.work-inquiry-content {
+    width: 70%;
+    margin: auto;
+    padding-top: 14px;
+}
+
+.work-inquiry-content h1 {
+    float: left;
+    font-size: 64px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.work-inquiry-content .custom-btn {
+    float: right;
+    margin-top: 11px;
+}
+
+
+/* Work Inquiry Section End */
+
+/* Social Section Start */
+.social-section {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.social-section h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #696871;
+    margin-bottom: 18px;
+}
+
+.social-section span {
+    color: #363958;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    display: inline-block;
+}
+
+
+.social-section ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.social-section ul li a {
+    width: 44px;
+    height: 44px;
+    display: block;
+    border-radius: 50%;
+    line-height: 44px;
+    color: #fff;
+    font-size: 20px;
+}
+
+a.dribbble {
+    background: #ea4c89;
+    border: 1px solid #ea4c89;
+}
+
+a.dribbble:hover {
+    background: #ffffff;
+    border: 1px solid #ea4c89;
+    color: #ea4c89;
+}
+
+
+a.behance {
+    background: #053eff;
+    border: 1px solid #053eff;
+}
+
+a.behance:hover {
+    background: #ffffff;
+    border: 1px solid #053eff;
+    color: #053eff;
+}
+
+a.instagram {
+    background-image: linear-gradient(45deg, #515BD4, #8134af, #DD2A7B);
+    border: 1px solid #8134af;
+}
+
+a.instagram:hover {
+    background: #ffffff;
+    border: 1px solid #8134af;
+    color: #8134af;
+}
+
+/* Social Section End */
+
+
+/* Footer Section Start */
+footer {
+    padding: 30px 0;
+    background: #F8F9FC;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #9c9c9c;
+    letter-spacing: .95px;
+}
+
+/* Footer Section End */
