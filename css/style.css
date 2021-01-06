@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+P {
+    font-size: 16px;
+    color: #3E3E3E;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+/* Navigation Menu Start */
+nav {
+    padding: 30px 0;
+    border-bottom: 1px solid #ff82663d;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 38px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #3C3C3C;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+
+nav ul li a:hover {
+    color: #FF8367;
+}
+
+/* Navigation Menu End */
+
+
+/* Introducing Section Start */
+
+.introduce-section {
+    padding: 40px 0;
+}
+
+.introduce-content {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+
+.introduce-content h1 {
+    color: #FF8367;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.introduce-content h1:first-child {
+    color: #363958;
+    margin-bottom: -24px;
+}
+
+.introduce-content p {
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.introduce-content span {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: #FF8367;
+}
+
+.introduce-content a {}
+
+.introduce-content a:hover {}
+
+.custom-btn {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 18px 44px;
+    color: #fff;
+    background: linear-gradient(180deg, #fd5d5df5, #fd9179);
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.custom-btn:hover {
+    background: #fd9179;
+}
+
+.introduce-img {
+    width: 50%;
+    float: left;
+}
+
+.introduce-img img {
+    width: 90%;
+    margin-left: auto;
+}
+
+/* Introducing Section End */
+
+/* About Section Start */
+
+/* About Section End */
