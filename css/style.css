@@ -237,13 +237,16 @@ nav ul li a:hover {
 .work-bg h4 {
     font-size: 24px;
     color: #363958;
-    font-weight: 500;
+    font-weight: 700;
     padding: 25px 0 10px 0;
+    text-align: left;
+    font-family: 'Roboto';
 }
 
 .work-bg p {
     color: #6C6C6C;
     padding-bottom: 10px;
+    text-align: left;
 }
 
 /* Work Section End */
